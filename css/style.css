@@ -272,7 +272,7 @@ a:focus, .button:focus, button:focus, .btn:focus {
   color: #000;
   line-height: 46px;
   font-weight: 700;
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
 }
 
 @media (max-width: 576px) {
