@@ -58,7 +58,7 @@
                     <a class="nav-link" href="index.html">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="about.html">About</a>
+                    <a class="nav-link" href="#about">About</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="services.html">services</a>
@@ -113,7 +113,13 @@
               <div class="banner_text_iner">
                 <h5>We are digital agency</h5>
                 <h1>Digital and innovative idea</h1>
-                <a href="#" class="btn_1">Explore Work</a>
+                <!-- <a href="#" class="btn_1">Explore Work</a> -->
+                <button class="btn_1" onclick="myFunction()">Experimente!</button>
+                <script>
+                    function myFunction() {
+                      alert("Coletado X creditos!");
+                    }
+                    </script>
               </div>
             </div>
           </div>
@@ -159,7 +165,7 @@
     <!--::client logo part end::-->
 
     <!-- about part start-->
-    <section class="about_part section_padding">
+    <section id="about" class="about_part section_padding">
       <div class="container">
         <div class="row align-items-center justify-content-between">
           <div class="col-md-6">
@@ -256,7 +262,7 @@
               <p>our project</p>
               <h2>Our Projects</h2>
             </div>
-          </div>
+          </div>fdanny
           <div class="col-lg-5 col-md-6">
             <div class="filters portfolio-filter project_menu_item">
               <ul>
@@ -419,6 +425,35 @@
       </div>
     </div>
     <!--::cta_part end::-->
+
+    <!-- TESTE -->
+    <!--::review_part end::-->
+    <div class="review_part padding_bottom" id="testimonial">
+      <div class="container">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-lg-7">
+            <div class="section_tittle text-center">
+              <p></p>
+              <br>
+              <h2>Equipe</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4">
+            <img src="img/client_2.png" alt="" class="mx-auto d-block" />
+          </div>
+          <div class="col-lg-4">
+              <img src="img/client_2.png" alt="" class="mx-auto d-block"/>
+          </div>
+          <div class="col-lg-4">
+              <img src="img/client_2.png" alt="" class="mx-auto d-block"/>
+          </div>
+          </div>
+        </div>
+    </div>
+    <!--::review_part end::-->
+
 
     <!-- footer part start-->
     <footer class="footer-area">
