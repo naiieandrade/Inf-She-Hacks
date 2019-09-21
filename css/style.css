@@ -1274,6 +1274,14 @@ ul {
   display: table;
 }
 
+
+.blog-info-link .buttom_colect {
+  float: left;
+  font-size: 14px;
+  color: #6bc936;
+}
+
+
 /* line 592, /Applications/MAMP/htdocs/palash/cl/july 2019/192 Agency/192 Agency html/sass/_blog.scss */
 .blog_item_img {
   position: relative;
@@ -1288,7 +1296,7 @@ ul {
   color: #fff;
   background-color: #00d089;
   padding: 8px 15px;
-  border-radius: 5px;
+  border-radius: 25px;
 }
 
 @media (min-width: 768px) {
@@ -1301,8 +1309,8 @@ ul {
 }
 
 /* line 611, /Applications/MAMP/htdocs/palash/cl/july 2019/192 Agency/192 Agency html/sass/_blog.scss */
-.blog_item_img .blog_item_date h3 {
-  font-size: 22px;
+.blog_item_img .blog_item_date h4 {
+  font-size: 16px;
   font-weight: 600;
   color: #fff;
   margin-bottom: 0;
@@ -1311,8 +1319,8 @@ ul {
 
 @media (min-width: 768px) {
   /* line 611, /Applications/MAMP/htdocs/palash/cl/july 2019/192 Agency/192 Agency html/sass/_blog.scss */
-  .blog_item_img .blog_item_date h3 {
-    font-size: 30px;
+  .blog_item_img .blog_item_date h4 {
+    font-size: 20px;
   }
 }
 
@@ -1329,6 +1337,61 @@ ul {
     font-size: 18px;
   }
 }
+
+/* BUTTOM_COLLECT ADDED */
+/* INICIO */
+
+/* line 595, /Applications/MAMP/htdocs/palash/cl/july 2019/192 Agency/192 Agency html/sass/_blog.scss */
+.blog_item_img .buttom_collect {
+  position: absolute;
+  bottom: -10px;
+  left: 10px;
+  display: block;
+  color: #00d089;
+  background-color: #fff;
+  padding: 8px 15px;
+  border-radius: 25px;
+}
+
+
+@media (min-width: 768px) {
+  /* line 595, /Applications/MAMP/htdocs/palash/cl/july 2019/192 Agency/192 Agency html/sass/_blog.scss */
+  .blog_item_img .buttom_collect {
+    bottom: -20px;
+    left: 40px;
+    padding: 10px 20px;
+  }
+}
+.blog_item_img .buttom_collect:hover {
+  background-color: #00d089;
+  color: #fff;
+}
+/* line 611, /Applications/MAMP/htdocs/palash/cl/july 2019/192 Agency/192 Agency html/sass/_blog.scss */
+.blog_item_img .buttom_collect h4 {
+  font-size: 10px;
+  font-weight: 600;
+  color: #00d089;
+  margin-bottom: 0;
+  line-height: 1.2;
+}
+
+
+.blog_item_img .buttom_collect h4:hover {
+  color: #fff;
+}
+
+@media (min-width: 768px) {
+  /* line 611, /Applications/MAMP/htdocs/palash/cl/july 2019/192 Agency/192 Agency html/sass/_blog.scss */
+  .blog_item_img .buttom_collect h4 {
+    font-size: 14px;
+  }
+}
+
+
+
+
+
+/* FIM */
 
 /* line 643, /Applications/MAMP/htdocs/palash/cl/july 2019/192 Agency/192 Agency html/sass/_blog.scss */
 .blog_right_sidebar .widget_title {
@@ -3465,6 +3528,31 @@ ul {
 .review_part .review_part_text .client_info p {
   margin-top: 0px;
 }
+
+/* ADDED - TEAM_INFO */
+/* INICIO */
+/* line 14, /Applications/MAMP/htdocs/palash/cl/july 2019/192 Agency/192 Agency html/sass/_review.scss */
+.review_part .team_info {
+  padding-bottom: 35px;
+  display: flow-root;
+}
+
+/* line 24, /Applications/MAMP/htdocs/palash/cl/july 2019/192 Agency/192 Agency html/sass/_review.scss */
+.review_part .team_info img {
+  height: 90px;
+  width: 90px;
+  float: left;
+  margin-right: 30px;
+}
+
+
+/* line 35, /Applications/MAMP/htdocs/palash/cl/july 2019/192 Agency/192 Agency html/sass/_review.scss */
+.review_part .team_info h4 {
+  margin-top: 19px;
+  font-weight: 300;
+}
+
+/* FIM */
 
 /* line 47, /Applications/MAMP/htdocs/palash/cl/july 2019/192 Agency/192 Agency html/sass/_review.scss */
 .review_part .review_part_text p {
