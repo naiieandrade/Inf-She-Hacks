@@ -3274,7 +3274,7 @@ ul {
 
 /* line 89, /Applications/MAMP/htdocs/palash/cl/july 2019/192 Agency/192 Agency html/sass/_our_project.scss */
 .our_project .single_our_project .single_offer img {
-  width: 100%;
+  width: 70%;
   height: auto;
   position: relative;
   z-index: 1;
@@ -3304,7 +3304,7 @@ ul {
 /* line 112, /Applications/MAMP/htdocs/palash/cl/july 2019/192 Agency/192 Agency html/sass/_our_project.scss */
 .our_project .single_our_project .single_offer .hover_text h2 {
   color: #000;
-  font-size: 24px;
+  font-size: 10px;
 }
 
 /* line 117, /Applications/MAMP/htdocs/palash/cl/july 2019/192 Agency/192 Agency html/sass/_our_project.scss */
